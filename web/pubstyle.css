@@ -1,0 +1,68 @@
+/* 
+    Document   : pubstyle
+    Created on : Mar 3, 2013, 7:25:34 PM
+    Author     : Pallavi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#coolMenu,
+#coolMenu ul {
+    list-style: none;
+}
+#coolMenu {
+    float: left;
+}
+#coolMenu > li {
+    float: left;
+}
+#coolMenu li a {
+display: list-item;
+    height: 3em;
+    line-height: 3em;
+    padding: 0 2.0em;
+    text-decoration: none;
+}
+#coolMenu ul {
+    position: absolute;
+    display: none;
+z-index: 999;
+}
+#coolMenu ul li a {
+    width: 160px;
+    height: 25px;
+}
+#coolMenu li:hover ul {
+    display: list-item;
+}
+/* Main menu
+------------------------------------------*/
+#coolMenu {
+    font-family:  Arial;
+    font-size: 12px;
+    background:black;
+}
+#coolMenu > li > a {
+    color:gainsboro;
+    font-weight: bold;
+}
+#coolMenu > li:hover > a {
+    background: #e3e3e3;
+    color: #000;
+}
+
+/* Submenu
+------------------------------------------*/
+#coolMenu ul {
+    background: #000;
+}
+#coolMenu ul li a {
+    color: #e3e3e3;
+}
+#coolMenu ul li:hover a {
+    background: #FFA308;
+}
+
+#coolMenu li:hover ul.noJS{
+    display: list-item; 
+}
